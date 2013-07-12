@@ -123,8 +123,8 @@ INSTALLED_APPS = (
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'gunicorn'
-    'helloworld'
+    'gunicorn',
+    'helloworld',
 )
 
 # A sample logging configuration. The only tangible logging
