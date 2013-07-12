@@ -8,16 +8,16 @@ ADMINS = (
 )
 
 MANAGERS = ADMINS
-DATABASES = {
-    'default': {
-        'NAME': 'nobody',
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'USER': 'nobody',
-        'PASSWORD': 'awesome_password',
-        'HOST': 'localhost',
-        'PORT': '',
-    },
-}
+#DATABASES = {
+#    'default': {
+#        'NAME': 'nobody',
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'USER': 'nobody',
+#        'PASSWORD': 'awesome_password',
+#        'HOST': 'localhost',
+#        'PORT': '',
+#    },
+#}
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/{{ docs_version }}/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []
