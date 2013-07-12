@@ -10,9 +10,9 @@ ADMINS = (
 MANAGERS = ADMINS
 DATABASES = {
     'default': {
-        'NAME': 'packaginator',
+        'NAME': 'nobody',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'USER': 'packaginator',
+        'USER': 'nobody',
         'PASSWORD': 'awesome_password',
         'HOST': '',
         'PORT': '',
