@@ -6,7 +6,7 @@ def hello(request):
 	p.save()
 	html="<html><body><p>Hello World!</p>"
 	for entry in conlog.objects.all():
-		html=html+entry.who+' connected at ' + str(entry.when)
+		html='<p>'+html+entry.who+' connected at ' + str(entry.when)+'</p>'
 	html=html+"</body></html>"		
 	return HttpResponse(html)
 
